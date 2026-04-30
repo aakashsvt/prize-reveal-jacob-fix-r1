@@ -5,10 +5,6 @@ import { Experience } from "@aakashvt/threejs-reveal-v2";
 export default function Page() {
     const [container, setContainer] = useState(null);
 
-    useEffect(() => {
-        console.log(1);
-    }, []);
-
     return (
          <div
             ref={setContainer}
