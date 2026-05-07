@@ -26,3 +26,7 @@ body {
   width: 100dvw;
   height: 100dvh;
 }
+
+#leva__root{
+  display: none !important;
+}
